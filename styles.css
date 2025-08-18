@@ -291,8 +291,8 @@ img {
 .home__bread {
 	width: 50px;
 	position: absolute;
-	top: 18rem;
-	left: 15rem;
+	top: 25rem;
+	left: 10rem;
 }
 
 .home__image {
@@ -650,6 +650,11 @@ img {
 		row-gap: 2rem;
 	}
 
+	.home__bread {
+  left: 5rem;
+  top: 20rem;
+}
+
 	.new__content {
 		grid-template-columns: 200px;
 		justify-content: center;
@@ -663,6 +668,11 @@ img {
 	.new__card:nth-child(2) img {
 		order: initial;
 	}
+
+	.about__bread {
+    right: -0.5rem;
+    top: 20rem;
+  }
 
 	.favorite__container {
 		grid-template-columns: 180px;
